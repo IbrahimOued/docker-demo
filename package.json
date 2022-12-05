@@ -1,0 +1,24 @@
+{
+  "name": "docker-demo",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "npm install inherits && mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "http-errors": "^2.0.0",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "inherits": "^2.0.4",
+    "mocha": "^10.1.0",
+    "ms": "^2.1.3"
+  }
+}
